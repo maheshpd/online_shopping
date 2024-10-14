@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "299812683109",
+    "project_id": "onlineshopping-bbc96",
+    "storage_bucket": "onlineshopping-bbc96.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:299812683109:android:cc7442f6fb6ea0fee7758c",
+        "android_client_info": {
+          "package_name": "com.example.onlineshopping"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLVNICWTN-pww_FWsFBSxckgC9IEiWiAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
