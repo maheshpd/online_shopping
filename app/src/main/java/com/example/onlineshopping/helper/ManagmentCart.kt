@@ -1,8 +1,7 @@
-package com.example.project1762.Helper
-
+package com.example.onlineshopping.helper
 import android.content.Context
 import android.widget.Toast
-import com.example.project1763.Model.ItemsModel
+import com.example.onlineshopping.Model.ItemsModel
 
 
 class ManagmentCart(val context: Context) {
@@ -23,7 +22,7 @@ class ManagmentCart(val context: Context) {
         Toast.makeText(context, "Added to your Cart", Toast.LENGTH_SHORT).show()
     }
 
-    fun getListCart(): ArrayList<ItemsModel> {
+    private fun getListCart(): ArrayList<ItemsModel> {
         return tinyDB.getListObject("CartList") ?: arrayListOf()
     }
 
